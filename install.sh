@@ -2,7 +2,7 @@
 set -euo pipefail
 
 REPO_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-SKILLS_TARGET="$HOME/.claude/skills"
+SKILLS_TARGET="${SKILLS_TARGET:-$HOME/.claude/skills}"
 EXTERNALS_DIR="$REPO_DIR/_externals"
 
 mkdir -p "$SKILLS_TARGET" "$EXTERNALS_DIR"
