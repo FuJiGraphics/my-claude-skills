@@ -49,6 +49,10 @@ git clone https://github.com/FuJiGraphics/my-claude-skills.git $HOME\my-claude-s
 
 > Windows uses NTFS junctions (no admin required). Don't use `install.sh` from Git Bash on Windows — symlinks won't behave correctly there.
 
+### macOS (double-click)
+
+After cloning, you can also double-click `install.command` in Finder — it opens Terminal and runs `install.sh` automatically. Same for `sync.command`.
+
 ## Adding things
 
 ### A new local skill
@@ -123,8 +127,10 @@ bash sync.sh   # or sync.ps1 — review with `git diff`, commit yourself
 ```
 my-claude-skills/
 ├── install.sh             # macOS / Linux  (repo → local)
+├── install.command        # macOS double-click wrapper for install.sh
 ├── install.ps1            # Windows         (repo → local)
 ├── sync.sh                # macOS / Linux  (local → repo)
+├── sync.command           # macOS double-click wrapper for sync.sh
 ├── sync.ps1               # Windows         (local → repo)
 ├── externals.txt          # external skills (git+symlink)
 ├── marketplaces.txt       # plugin marketplaces
