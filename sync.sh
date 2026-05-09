@@ -8,7 +8,7 @@ set -euo pipefail
 
 REPO_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 SKILLS_DIR="$REPO_DIR/skills"
-SKILLS_TARGET="$HOME/.claude/skills"
+SKILLS_TARGET="${SKILLS_TARGET:-$HOME/.claude/skills}"
 
 mkdir -p "$SKILLS_DIR"
 
