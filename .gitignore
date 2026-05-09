@@ -19,7 +19,3 @@
 
 # External skill clones (managed by install scripts)
 _externals/
-
-# 사용자 컴퓨터 전역 전용 스킬 (~/.claude/skills/만 사용, 저장소 동기화 제외)
-/skills/commit/
-/skills/commit-all/
