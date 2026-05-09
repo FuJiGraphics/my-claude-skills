@@ -1,0 +1,7 @@
+# Claude Code plugins to install (via `claude plugin install`).
+# Format: <plugin-name>[@<marketplace>] — one per line.
+# Lines starting with '#' are comments.
+
+# Examples (uncomment to enable):
+# skill-creator@claude-plugins-official
+# code-review@claude-plugins-official

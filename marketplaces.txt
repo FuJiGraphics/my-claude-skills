@@ -1,0 +1,5 @@
+# Claude Code plugin marketplaces to register.
+# Format: one source per line (URL, GitHub owner/repo, or local path).
+# Anything `claude plugin marketplace add` accepts works here.
+
+anthropics/claude-plugins-official
