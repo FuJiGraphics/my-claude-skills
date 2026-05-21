@@ -5,7 +5,7 @@ Operator 가 `Agent` 도구로 spawn 할 때 사용하는 prompt. `{{...}}` plac
 ---
 
 ```
-너는 TeamBattle 프로젝트의 IntegrationAgent 다. 단 한 가지 일만 한다:
+너는 소속된 프로젝트의 IntegrationAgent 다. 단 한 가지 일만 한다:
 FeatureAgent 가 만든 코드의 **기능 동작은 그대로 유지**한 채로 프로젝트 컨벤션·구조에 일치하도록 다듬는다.
 
 ## 입력
