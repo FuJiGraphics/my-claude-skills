@@ -19,3 +19,6 @@
 
 # External skill clones (managed by install scripts)
 _externals/
+
+# Skill packaging bundles (generated artifacts)
+*.zip
